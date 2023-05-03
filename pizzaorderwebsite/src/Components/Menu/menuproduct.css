@@ -1,0 +1,16 @@
+.menuResult{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    margin: 1rem;
+    
+
+}
+.menuResult img{
+    width: 18rem;
+    height: 20rem;
+    border-radius: 10rem;
+
+}

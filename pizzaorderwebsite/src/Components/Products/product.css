@@ -1,0 +1,68 @@
+.products{
+    color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+
+
+}
+.products img{
+    width: 18rem;
+    height: 20rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    margin: 1rem;
+    padding: 1rem;
+    margin-top: 5rem;
+    text-align: center;
+    box-shadow: 0 0 1rem;
+    border-radius: 1rem;
+}
+.card :hover{
+    transform: scale(1.1);
+    transition: transform 0.7s;
+    text-align: center;
+
+}
+
+.hideButton{
+    display:none ;
+    
+}
+.card :hover + .hideButton, .hideButton:hover{
+    display:inline-block;
+    
+    
+}
+.hideButton button{
+    margin: .1rem;
+    padding: 1rem;
+    
+}
+#first{
+    background-color:rgb(200,77,42);
+    color: white;
+    border-style:none ;
+}
+
+button{
+ cursor: pointer;
+ border-style: none;
+ background-color: bisque;
+
+}
+@media(max-width:320px){
+     
+   
+   
+   
+    
+     
+    
+
+}

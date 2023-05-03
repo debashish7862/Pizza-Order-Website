@@ -1,0 +1,84 @@
+
+
+
+
+.addtoCart{
+    box-shadow: 0 0  2rem;
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 40rem;
+   
+   padding: 2rem;
+   background-color: white;
+   margin-left: 5rem;
+   
+
+ 
+
+}
+.container{
+    background-image:url("https://img.freepik.com/free-photo/top-view-pepperoni-pizza-sliced-into-six-slices_141793-2157.jpg?w=900&t=st=1682966876~exp=1682967476~hmac=0d5a2e94c73186f982e57741ab5fda8f9044420c6510f38f7cd264ef04a5edcf");
+    width: 90rem;
+    height:47.5rem ;
+    background-repeat: no-repeat;
+    background-size: 90rem 100rem;
+}
+.addtoCart button {
+    height: 4rem;
+    color: white;
+    background-color:rgb(208,77,44);
+  
+
+}
+form{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.addtoCart h3{
+    margin-left: 2rem;
+}
+.addtoCart a{
+    margin-top: .5rem;
+    
+
+}
+.email input{
+    width: 20rem;
+    height: 2rem;
+
+}
+.phone input{
+    width: 20rem;
+    height: 2rem;
+
+}
+.numberOfSlice input{
+    width: 10rem;
+    height: 2rem;
+
+}
+.tag{
+    margin-left: 2rem;
+}
+.selectSize input {
+    height: 1rem;
+    width:2rem;
+
+}
+.toopings input{
+    height: 1.2rem;
+    width:2rem;
+}
+.agreement input{
+    height: 1.2rem;
+    width:2rem;
+}
+#orderButton{
+    width: 40rem;
+}
+
