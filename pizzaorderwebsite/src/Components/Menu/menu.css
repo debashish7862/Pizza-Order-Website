@@ -29,6 +29,9 @@ width: 10rem;
     text-decoration: none;
 
 }
+.lowerLeft a:hover{
+    color: #5ada3a;
+}
 .lowerRight{
     display: flex;
     align-items: center;

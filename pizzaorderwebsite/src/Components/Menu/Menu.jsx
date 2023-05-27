@@ -17,14 +17,14 @@ export default function Menu() {
         </div>
         <div className='rightSide'>
         <i class="fa fa-heart">LOYALTY CARD</i>
-        <i class="fas fa-map-marker-alt">LOCATIONS</i>
-        <i class="fas fa-location-arrow">CAREERS</i>
+        <Link to='/location'><i class="fas fa-map-marker-alt">LOCATIONS</i></Link >
+         <i class="fas fa-location-arrow">CAREERS</i>
         </div>
 
       </div>
       <div className='lowerNav'>
        <div className='lowerLeft'>
-       <img src="https://www.48hourslogo.com/oss/works/2022/06/03/17596766289/118869_65353_1a9b8875-0e65-4d69-a94e-e89fec31bc5c.jpg" alt="logo" />
+     <Link to='/'><img src="https://www.48hourslogo.com/oss/works/2022/06/03/17596766289/118869_65353_1a9b8875-0e65-4d69-a94e-e89fec31bc5c.jpg" alt="logo" /></Link>
        
            
             <Link to ="/">HOME</Link >

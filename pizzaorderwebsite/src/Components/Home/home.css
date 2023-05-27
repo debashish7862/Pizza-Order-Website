@@ -3,21 +3,27 @@
 }
 
 
-
+.left{
+    position: fixed;
+    background-color:white;
+    height: 100vh;
+}
 
 .left img{
-    width: 15rem;
+    width: 16vw;
     margin-top: 2rem;
     box-shadow: 0 0 .5rem;
+    
 }
 .right{
     background-image: url("https://as1.ftcdn.net/v2/jpg/02/92/08/20/1000_F_292082032_oxXr6P0OARzxfrjHM5R8QJ4BchsBfxFK.jpg");
-    width: 100rem;
-    height: 45rem;
+    width: 100vw;
+    height: 93vh;
     background-repeat: no-repeat;
-    background-size: 100rem 45rem;
+    background-size: 85vw 100vh;
     margin-top: 2rem;
     box-shadow: 0 0 .5rem;
+    margin-left: 15rem;
     
 }
 .nav{
@@ -30,7 +36,12 @@
 .nav a{
     text-decoration: none;
     margin: 1rem;
-    color: black;
+    color: rgb(58, 57, 57);
+
+}
+.nav a:hover{
+    color: #5ada3a;
+
 }
 .orderOnline{
     margin-top: 5rem;

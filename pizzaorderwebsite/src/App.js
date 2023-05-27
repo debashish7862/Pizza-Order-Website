@@ -21,13 +21,7 @@ const{isSuscribe}=useSelector((storedata)=>{
 
   return (
     <>
-    {
-      isSuscribe ? <div> 
-         <Suscribe/>
-      </div> : <div>
-
-      </div>
-    }
+    
     <Routes>
     <Route path='/'element={<Home/>}/>
     <Route path='/pages'element={<Pages/>}/>
@@ -37,9 +31,12 @@ const{isSuscribe}=useSelector((storedata)=>{
     <Route path='/quickview/:id/'element={<Productdetails/>}/>
     <Route path='/addtocart'element={<Addtocart/>}/>
     <Route path='/sucesspage'element={<Sucesspage/>}/>
-    <Route path='/orderonline'element={<Products/>}/>
+    <Route path='/orderonline'element={<Menu/>}/>
    
     </Routes>
+
+
+    
     </>
   );
 }

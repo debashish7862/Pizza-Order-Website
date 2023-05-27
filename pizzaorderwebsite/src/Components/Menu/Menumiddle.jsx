@@ -5,8 +5,8 @@ export default function Menumiddle() {
     <>
     <div className='menuMiddle'>
       <div className='centerMenu'>
-        <p>CHOOSE YOUR FAVORITE</p>
-        <h2>MENU LIGHT</h2>
+        {/* <p>CHOOSE YOUR FAVORITE</p>
+        <h2>MENU LIGHT</h2> */}
 
       </div>
 

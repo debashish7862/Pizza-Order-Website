@@ -2,13 +2,14 @@
     color: rgb(0, 0, 0);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 15rem;
     
 
 
 }
 .products img{
-    width: 18rem;
-    height: 20rem;
+    width: 10rem;
+    height: 10rem;
 }
 .card{
     display: flex;
@@ -20,7 +21,7 @@
     padding: 1rem;
     margin-top: 5rem;
     text-align: center;
-    box-shadow: 0 0 1rem;
+    /* box-shadow: 0 0 1rem; */
     border-radius: 1rem;
 }
 .card :hover{
@@ -32,10 +33,11 @@
 
 .hideButton{
     display:none ;
+
     
 }
 .card :hover + .hideButton, .hideButton:hover{
-    display:inline-block;
+    display:flex;
     
     
 }
